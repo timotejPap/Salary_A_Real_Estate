@@ -3,3 +3,12 @@
 .idea/Salary_A_Real_Estate.iml
 .idea/modules.xml
 .idea/misc.xml
+log/playwright-log.txt
+log/log.html
+log/output.xml
+log/report.html
+results/report.html
+results/playwright-log.txt
+.gitignore
+results/log.html
+results/output.xml
