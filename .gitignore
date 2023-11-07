@@ -12,3 +12,4 @@ results/playwright-log.txt
 .gitignore
 results/log.html
 results/output.xml
+results/browser/screenshot/fail-screenshot-1.png
