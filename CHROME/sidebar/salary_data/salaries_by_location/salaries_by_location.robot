@@ -19,6 +19,11 @@ Zoom graph
     Sidebar open
     Zoom graph
 
+Pan
+    Web
+    Sidebar open
+    Pan
+
 *** Keywords ***
 Web
     New Browser         headless=False
@@ -38,5 +43,10 @@ Download graph
 Zoom graph
     Click               //*[name()='path' and contains(@d,'m1000-25l-')]
     Drag And Drop       //*[name()='rect' and contains(@class,'nsewdrag d')]    //*[name()='rect' and contains(@class,'nsewdrag d')]
-    # Sleep    3
     Take Screenshot
+
+Pan
+    Click                //*[name()='path' and contains(@d,'m1000 350l')]
+    Drag And Drop        //*[name()='rect' and contains(@class,'nsewdrag d')]    //*[name()='rect' and contains(@class,'nsewdrag d')]
+    Take Screenshot
+
