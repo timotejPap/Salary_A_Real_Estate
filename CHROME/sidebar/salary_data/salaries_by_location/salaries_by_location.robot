@@ -5,17 +5,14 @@ Library     Browser
 ${URL}        http://194.163.140.160/
 
 *** Test Cases ***
-Salaries by location
+Sidebar open
     Web
-    Salaries by location
+    Sidebar open
 
-Salaries by position
+Download plot
     Web
-    Salaries by position
-
-Salaries by industry
-    Web
-    Salaries by industry
+    Sidebar open
+    Download plot
 
 *** Keywords ***
 Web
@@ -24,20 +21,12 @@ Web
     Click               id=btn_sidebar
     Sleep               4
 
-Salaries by location
+Sidebar open
     Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
     Get Text            "Median salaries by city the Slovak Republic"
     Sleep                4
+    
+Download plot
     Click                //*[name()='path' and contains(@d,'m500 450c-')]
     Sleep                2
     Take Screenshot
-
-Salaries by position
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[3] 
-    Get Text            "Salaries for positions in the Slovak Republic"
-    Sleep                4
-
-Salaries by industry
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[4] 
-    Get Text            "Salaries by industry in the Slovak Republic"
-    Sleep                4
