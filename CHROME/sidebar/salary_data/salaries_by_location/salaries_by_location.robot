@@ -1,8 +1,7 @@
 *** Settings ***
 Library     Browser
+Resource    keywords-salaries_by_location.robot
 
-*** Variables ***
-${URL}        http://194.163.140.160/
 
 *** Test Cases ***
 Sidebar open
@@ -24,29 +23,23 @@ Pan
     Sidebar open
     Pan
 
-*** Keywords ***
-Web
-    New Browser         headless=False
-    New Page            ${URL}
-    Click               id=btn_sidebar
-    Sleep               2
+Box select
+    Web
+    Sidebar open
+    Box select
 
-Sidebar open
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
-    Sleep               2
-    
-Download graph
-    Click                //*[name()='path' and contains(@d,'m500 450c-')]
-    Sleep                2
-    Take Screenshot
+Lasso select
+    Web
+    Sidebar open
+    Lasso select
 
-Zoom graph
-    Click               //*[name()='path' and contains(@d,'m1000-25l-')]
-    Drag And Drop       //*[name()='rect' and contains(@class,'nsewdrag d')]    //*[name()='rect' and contains(@class,'nsewdrag d')]
-    Take Screenshot
+Zoom in
+    Web
+    Sidebar open
+    Zoom in
 
-Pan
-    Click                //*[name()='path' and contains(@d,'m1000 350l')]
-    Drag And Drop        //*[name()='rect' and contains(@class,'nsewdrag d')]    //*[name()='rect' and contains(@class,'nsewdrag d')]
-    Take Screenshot
-
+Zoom out
+    Web
+    Sidebar open
+    Zoom in
+    Zoom out
