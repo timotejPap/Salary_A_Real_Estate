@@ -43,3 +43,15 @@ Zoom out
     Sidebar open
     Zoom in
     Zoom out
+
+Autoscale
+    Web
+    Sidebar open
+    Zoom in
+    Autoscale
+
+Reset axes
+    Web
+    Sidebar open
+    Zoom out
+    Reset axes

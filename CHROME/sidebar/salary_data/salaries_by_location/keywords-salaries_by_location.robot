@@ -45,3 +45,11 @@ Zoom in
 Zoom out
     Click                //a[@data-title='Zoom out']//*[name()='svg']
     Take Screenshot
+
+Autoscale
+    Click                //*[name()='path' and contains(@d,'m250 850l-')]
+    Take Screenshot
+
+Reset axes
+    Click                //*[name()='path' and contains(@d,'m786 296v-')]
+    Take Screenshot
