@@ -53,3 +53,6 @@ Autoscale
 Reset axes
     Click                //*[name()='path' and contains(@d,'m786 296v-')]
     Take Screenshot
+
+Plotly logo
+    Click                //*[name()='rect' and contains(@class,'cls-0')]

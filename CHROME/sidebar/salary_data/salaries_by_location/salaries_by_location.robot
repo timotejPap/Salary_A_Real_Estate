@@ -55,3 +55,8 @@ Reset axes
     Sidebar open
     Zoom out
     Reset axes
+
+Plotly logo
+    Web
+    Sidebar open
+    Plotly logo
