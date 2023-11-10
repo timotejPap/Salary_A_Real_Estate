@@ -26,3 +26,10 @@ City Banská Bystrica
     Click                "Banská Bystrica"
     Sleep                3
     Take Screenshot
+
+Remove outliers
+    Sleep                4
+    Take Screenshot
+    Click                id=_dbcprivate_checklist_outliers_checkbox_input_0
+    Sleep                3
+    Take Screenshot

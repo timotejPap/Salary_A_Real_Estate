@@ -22,3 +22,8 @@ City London
     Web
     Sidebar open
     City London
+
+Remove outliers
+    Web
+    Sidebar open
+    Remove outliers
