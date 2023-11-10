@@ -20,3 +20,9 @@ Average to median
     Sleep                2
     Click                "Median"
     Take Screenshot
+
+City Banská Bystrica
+    Click                id=react-select-4--value
+    Click                "Banská Bystrica"
+    Sleep                3
+    Take Screenshot
