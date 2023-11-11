@@ -12,7 +12,7 @@ Home button
 EN to SK
     Web
     Sidebar open
-    EN to SK
+    EN to SK    
 
 EN to FR
     Web
