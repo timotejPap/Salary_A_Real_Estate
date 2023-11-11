@@ -35,12 +35,12 @@ Sidebar open
     Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
     Sleep               2
 
-Home button
+Home button    # robotcode: ignore
     Click                //a[@class='nav-link'][normalize-space()='Home']
     Get Text            "Welcome!"
     Take Screenshot
 
-EN to SK
+EN to SK    # robotcode: ignore
     Click               css=.dash-dropdown
     Sleep               4
     Click               "SK"
@@ -48,7 +48,7 @@ EN to SK
     Sleep               4    
     Take Screenshot               
 
-EN to FR
+EN to FR    # robotcode: ignore
     Click               css=.dash-dropdown
     Sleep               4
     Click               "FR"
