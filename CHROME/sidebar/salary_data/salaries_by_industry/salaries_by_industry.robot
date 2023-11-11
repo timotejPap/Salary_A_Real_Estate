@@ -1,22 +1,25 @@
 *** Settings ***
 Library     Browser
+Library     SeleniumLibrary
+Resource    keywords-salaries_by_industry.robot
 
-*** Variables ***
-${URL}        http://194.163.140.160/
 
 *** Test Cases ***
 Salaries by industry
     Web
-    Salaries by industry
+    Sidebar open
 
-*** Keywords ***
-Web
-    New Browser         headless=False
-    New Page            ${URL}
-    Click               id=btn_sidebar
-    Sleep               4
+Average to median
+    Web
+    Sidebar open
+    Average to median
 
-Salaries by industry
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[4] 
-    Get Text            "Salaries by industry in the Slovak Republic"
-    Sleep                4
+City Banska Bystrica
+    Web
+    Sidebar open
+    City Banská Bystrica
+
+Remove outliers
+    Web
+    Sidebar open
+    Remove outliers

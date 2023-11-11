@@ -1,6 +1,6 @@
 *** Settings ***
 Library     Browser
-Resource  keywords-salaries_by_position.robot
+Resource    keywords-salaries_by_position.robot
 
 
 *** Test Cases ***
@@ -17,11 +17,6 @@ City Banska Bystrica
     Web
     Sidebar open
     City Banská Bystrica
-
-City London
-    Web
-    Sidebar open
-    City London
 
 Remove outliers
     Web

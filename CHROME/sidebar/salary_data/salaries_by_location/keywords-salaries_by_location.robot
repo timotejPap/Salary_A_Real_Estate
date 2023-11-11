@@ -22,7 +22,8 @@ Download graph
 
 Zoom graph
     Click               //*[name()='path' and contains(@d,'m1000-25l-')]
-    Drag And Drop       //*[name()='rect' and contains(@class,'nsewdrag d')]    //*[name()='rect' and contains(@class,'nsewdrag d')]
+    Drag And Drop By Coordinates    from_x=30    from_y=30    to_x=10    to_y=10    steps=20
+    Sleep    4
     Take Screenshot
 
 Pan
