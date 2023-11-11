@@ -19,7 +19,7 @@ EN to FR
     Sidebar open
     EN to FR
 
-Home button
+Home button    # robotcode: ignore
     Web
     Sidebar open
     Home button
