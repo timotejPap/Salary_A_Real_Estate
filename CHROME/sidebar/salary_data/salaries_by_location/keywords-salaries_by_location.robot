@@ -10,11 +10,11 @@ Web
     New Page            ${URL}
     Sleep               2
 
-Home button
+Home butt
     Click                //a[@class='nav-link'][normalize-space()='Home']
     Get Text            "Welcome!"
 
-EN to SK
+EN to Slovak
     Click               css=.dash-dropdown
     Sleep               4
     Click               "SK"
@@ -22,7 +22,7 @@ EN to SK
     Sleep               4    
     Take Screenshot               
 
-EN to FR
+EN to French
     Click               css=.dash-dropdown
     Sleep               4
     Click               "FR"

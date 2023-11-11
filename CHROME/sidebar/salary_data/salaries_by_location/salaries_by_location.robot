@@ -9,15 +9,15 @@ Home button
     Sidebar open
     Home button
 
-EN to SK
+EN to Slovak
     Web
     Sidebar open
-    EN to SK    
+    EN to Slovak    
 
-EN to FR
+EN to French
     Web
     Sidebar open
-    EN to FR
+    EN to French
 
 Download graph
     Web
