@@ -10,6 +10,26 @@ Web
     New Page            ${URL}
     Sleep               2
 
+Home button
+    Click                //a[@class='nav-link'][normalize-space()='Home']
+    Get Text            "Welcome!"
+
+EN to SK
+    Click               css=.dash-dropdown
+    Sleep               4
+    Click               "SK"
+    Get Text            "Mediánové platy podľa miest v SR"
+    Sleep               4    
+    Take Screenshot               
+
+EN to FR
+    Click               css=.dash-dropdown
+    Sleep               4
+    Click               "FR"
+    Get Text            "Salaires médians par ville en République slovaque"
+    Sleep               4    
+    Take Screenshot
+
 Sidebar open
     Click               id=btn_sidebar
     Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 

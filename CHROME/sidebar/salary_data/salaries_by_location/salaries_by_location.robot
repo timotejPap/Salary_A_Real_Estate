@@ -19,6 +19,21 @@ EN to FR
     Sidebar open
     EN to FR
 
+Home button
+    Web
+    Sidebar open
+    Home button
+
+EN to SK
+    Web
+    Sidebar open
+    EN to SK
+
+EN to FR
+    Web
+    Sidebar open
+    EN to FR
+
 Download graph
     Web
     Sidebar open
