@@ -1,29 +1,24 @@
 *** Settings ***
-Library     Browser
+Library        Browser
 
-*** Test Cases ***
-Language EN to SK
-    Browser EN to SK
+*** Variables ***                
+${URL}                http://194.163.140.160/
 
-Language EN to FR
-    Browser EN to FR
 
 *** Keywords ***
-Browser EN to SK
+Web
     New Browser         headless=False
-    New Page            http://194.163.140.160/
+    New Page            ${URL}
     Get Text            "Welcome!"
+
+Browser EN to SK
     Click               css=.dash-dropdown
     Sleep               4
     Click               "SK"
     Get Text            "Vitaj!"
 
 Browser EN to FR
-    New Browser         headless=False
-    New Page            http://194.163.140.160/
-    Get Text            "Welcome!"
     Click               css=.dash-dropdown
     Sleep               4
     Click               "FR"
     Get Text            "Bienvenue!"
-    

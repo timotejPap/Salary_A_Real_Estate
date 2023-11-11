@@ -4,9 +4,20 @@ Resource    keywords-salaries_by_location.robot
 
 
 *** Test Cases ***
-Sidebar open
+Home button
     Web
     Sidebar open
+    Home button
+
+EN to SK
+    Web
+    Sidebar open
+    EN to SK
+
+EN to FR
+    Web
+    Sidebar open
+    EN to FR
 
 Download graph
     Web

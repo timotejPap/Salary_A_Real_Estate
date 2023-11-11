@@ -1,7 +1,5 @@
 *** Settings ***
 Library        Browser
-Library     SeleniumLibrary
-
 
 *** Variables ***
 ${URL}        http://194.163.140.160/

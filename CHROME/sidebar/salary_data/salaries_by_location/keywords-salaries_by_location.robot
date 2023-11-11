@@ -2,18 +2,39 @@
 Library        Browser
 
 *** Variables ***
-${URL}        http://194.163.140.160/
+${URL}                http://194.163.140.160/
 
 *** Keywords ***
 Web
     New Browser         headless=False
     New Page            ${URL}
-    Click               id=btn_sidebar
     Sleep               2
 
 Sidebar open
+    Click               id=btn_sidebar
     Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
     Sleep               2
+
+Home button
+    Click                //a[@class='nav-link'][normalize-space()='Home']
+    Get Text            "Welcome!"
+    Take Screenshot
+
+EN to SK
+    Click               css=.dash-dropdown
+    Sleep               4
+    Click               "SK"
+    Get Text            "Mediánové platy podľa miest v SR"
+    Sleep               4    
+    Take Screenshot               
+
+EN to FR
+    Click               css=.dash-dropdown
+    Sleep               4
+    Click               "FR"
+    Get Text            "Salaires médians par ville en République slovaque"
+    Sleep               4    
+    Take Screenshot
     
 Download graph
     Click                //*[name()='path' and contains(@d,'m500 450c-')]
