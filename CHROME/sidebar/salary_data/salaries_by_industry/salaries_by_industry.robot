@@ -1,6 +1,5 @@
 *** Settings ***
 Library     Browser
-Library     SeleniumLibrary
 Resource    keywords-salaries_by_industry.robot
 
 
