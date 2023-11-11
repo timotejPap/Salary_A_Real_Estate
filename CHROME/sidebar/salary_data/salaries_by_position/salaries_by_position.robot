@@ -1,22 +1,20 @@
 *** Settings ***
 Library     Browser
+Resource    keywords-salaries_by_position.robot
 
-*** Variables ***
-${URL}        http://194.163.140.160/
 
 *** Test Cases ***
-Salaries by position
+Average to median
     Web
-    Salaries by position
+    Sidebar open
+    Average to median
 
-*** Keywords ***
-Web
-    New Browser         headless=False
-    New Page            ${URL}
-    Click               id=btn_sidebar
-    Sleep               4
+City Banska Bystrica
+    Web
+    Sidebar open
+    City Banská Bystrica
 
-Salaries by position
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[3] 
-    Get Text            "Salaries for positions in the Slovak Republic"
-    Sleep                4
+Remove outliers
+    Web
+    Sidebar open
+    Remove outliers
