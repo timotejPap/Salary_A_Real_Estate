@@ -19,7 +19,11 @@ EN to FR
     Sidebar open
     EN to FR
 
+<<<<<<< HEAD
 Home button    
+=======
+Home button    # robotcode: ignore
+>>>>>>> a93e1a36a5ae27b0aa5872800cce0bcd666048fe
     Web
     Sidebar open
     Home button
