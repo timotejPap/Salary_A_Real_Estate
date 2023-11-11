@@ -4,9 +4,7 @@ Resource    keywords-salaries_by_industry.robot
 
 
 *** Test Cases ***
-Salaries by industry
-    Web
-    Sidebar open
+
 
 Average to median
     Web

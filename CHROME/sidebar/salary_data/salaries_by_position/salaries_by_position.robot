@@ -4,6 +4,16 @@ Resource    keywords-salaries_by_position.robot
 
 
 *** Test Cases ***
+EN to SK
+    Web
+    Sidebar open
+    EN to SK
+
+EN to FR
+    Web
+    Sidebar open
+    EN to FR
+
 Average to median
     Web
     Sidebar open

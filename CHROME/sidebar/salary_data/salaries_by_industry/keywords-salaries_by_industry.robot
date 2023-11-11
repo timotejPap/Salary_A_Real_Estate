@@ -2,16 +2,18 @@
 Library        Browser
 
 *** Variables ***
-${URL}        http://194.163.140.160/
+${URL}                    http://194.163.140.160/
 
 *** Keywords ***
 Web
     New Browser         headless=False
     New Page            ${URL}
-    Click               id=btn_sidebar
     Sleep               2
 
+
+
 Sidebar open
+    Click               id=btn_sidebar
     Click               //div[@class='flex-column nav nav-pills']//div[1]//a[4] 
     Sleep               2
 
