@@ -13,6 +13,11 @@ Web
 Home butt
     Click                //a[@class='nav-link'][normalize-space()='Home']
     Get Text            "Welcome!"
+    
+Sidebar open
+    Click               id=btn_sidebar
+    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
+    Sleep               2
 
 EN to Slovak
     Click               css=.dash-dropdown
@@ -30,10 +35,7 @@ EN to French
     Sleep               4    
     Take Screenshot
 
-Sidebar open
-    Click               id=btn_sidebar
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
-    Sleep               2
+
 
 Home button    # robotcode: ignore
     Click                //a[@class='nav-link'][normalize-space()='Home']

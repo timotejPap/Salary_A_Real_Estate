@@ -10,6 +10,11 @@ Web
     New Page            ${URL}
     Sleep               2
 
+Sidebar open
+    Click               id=btn_sidebar
+    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[3]
+    Sleep               2
+
 EN to SK
     Click               //div[@id='set_language']//span[@class='Select-arrow-zone']
     Sleep               4
@@ -25,11 +30,6 @@ EN to FR
     Get Text            "Salaires pour les postes en République slovaque"
     Sleep               4    
     Take Screenshot
-
-Sidebar open
-    Click               id=btn_sidebar
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[3]
-    Sleep               2
 
 Average to median
     Click                //span[@id='react-select-3--value-item']
