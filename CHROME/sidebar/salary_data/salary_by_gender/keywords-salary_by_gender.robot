@@ -31,3 +31,14 @@ EN to FR
     Sleep               4
     Take Screenshot
 
+Profession
+    Click                //div[contains(text(),'Choose a profession...')]
+    Click               "Account director"
+    Sleep                5
+    Take Screenshot
+
+City
+    Click                //div[contains(text(),'Choose a city...')]
+    Click                "Bratislava"
+    Sleep                5
+    Take Screenshot

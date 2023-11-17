@@ -12,3 +12,13 @@ EN to FR
     Web
     Sidebar open
     EN to FR
+
+Profession
+    Web
+    Sidebar open
+    Profession
+
+City
+    Web
+    Sidebar open
+    City
