@@ -27,3 +27,8 @@ City
     Web
     Sidebar open
     City
+
+City + clear
+    Web
+    Sidebar open
+    City + clear

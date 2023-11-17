@@ -51,3 +51,10 @@ City
     Sleep                5
     Take Screenshot
 
+City + clear
+    Click                //div[contains(text(),'Choose a city...')]
+    Click                "Bratislava"
+    Sleep                5
+    Click                css=.Select-clear
+    Sleep                5
+    Take Screenshot
