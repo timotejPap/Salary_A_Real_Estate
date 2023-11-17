@@ -13,10 +13,15 @@ EN to FR
     Sidebar open
     EN to FR
 
-Profession
+Profession by gender
     Web
     Sidebar open
-    Profession
+    Profession by gender
+
+Profession by age
+    Web
+    Sidebar open
+    Profession by age 
 
 City
     Web

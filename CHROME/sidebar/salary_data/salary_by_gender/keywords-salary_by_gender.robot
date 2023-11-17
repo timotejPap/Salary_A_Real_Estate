@@ -31,9 +31,17 @@ EN to FR
     Sleep               4
     Take Screenshot
 
-Profession
+Profession by gender
     Click                //div[contains(text(),'Choose a profession...')]
     Click               "Account director"
+    Sleep                5
+    Take Screenshot
+
+Profession by age
+    Click                //div[contains(text(),'Choose a profession...')]
+    Click               "Account director"
+    Sleep                3
+    Click                id=get_tab_title_also_age_range
     Sleep                5
     Take Screenshot
 
@@ -42,3 +50,4 @@ City
     Click                "Bratislava"
     Sleep                5
     Take Screenshot
+
