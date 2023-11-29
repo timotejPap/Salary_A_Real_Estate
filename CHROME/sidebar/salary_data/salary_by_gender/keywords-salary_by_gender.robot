@@ -42,7 +42,7 @@ Profession by age
     Click               "Account director"
     Sleep                3
     Click                id=get_tab_title_also_age_range
-    Sleep                5
+    Sleep                7
     Take Screenshot
 
 City
