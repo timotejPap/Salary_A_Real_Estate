@@ -2,7 +2,7 @@
 Library        Browser
 
 *** Variables ***
-${URL}                http://194.163.140.160/
+${URL}                http://salary-realestate-dashboard.suflik.eu/page-0
 
 *** Keywords ***
 Web
@@ -11,13 +11,9 @@ Web
     Sleep               2
 
 Home butt
+    Click                //button[@id='btn_sidebar']
     Click                //a[@class='nav-link'][normalize-space()='Home']
     Get Text            "Welcome!"
-    
-Sidebar open
-    Click               id=btn_sidebar
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[2] 
-    Sleep               2
 
 EN to Slovak
     Click               css=.dash-dropdown
@@ -34,8 +30,6 @@ EN to French
     Get Text            "Salaires médians par ville en République slovaque"
     Sleep               4    
     Take Screenshot
-
-
 
 Home button    # robotcode: ignore
     Click                //a[@class='nav-link'][normalize-space()='Home']

@@ -2,7 +2,7 @@
 Library        Browser
 
 *** Variables ***
-${URL}                    http://194.163.140.160/page-4
+${URL}                    http://salary-realestate-dashboard.suflik.eu/page-4
 
 *** Keywords ***
 Web

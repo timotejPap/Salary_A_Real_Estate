@@ -2,17 +2,12 @@
 Library        Browser
 
 *** Variables ***
-${URL}                    http://194.163.140.160/
+${URL}                    http://salary-realestate-dashboard.suflik.eu/page-2
 
 *** Keywords ***
 Web
     New Browser         headless=False
     New Page            ${URL}
-    Sleep               2
-
-Sidebar open
-    Click               id=btn_sidebar
-    Click               //div[@class='flex-column nav nav-pills']//div[1]//a[4] 
     Sleep               2
 
 EN to SK
