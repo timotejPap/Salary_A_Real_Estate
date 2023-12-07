@@ -17,3 +17,8 @@ EN to FR
 Okres Bardejov
     Web
     Okres Bardejov
+
+Okres Bardejov + Garsónka
+    Web
+    Okres Bardejov
+    Garsónka

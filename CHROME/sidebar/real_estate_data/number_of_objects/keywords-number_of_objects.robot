@@ -29,5 +29,11 @@ EN to FR
 Okres Bardejov
     Click            //div[@id='react-select-3--value']//div[@class='Select-value']
     Click            "okres Bardejov"
+    Sleep            6
+    Take Screenshot
+
+Garsónka
+    Click            //div[@id='react-select-4--value']//div[@class='Select-value']
+    Click            "Garsónka"
     Sleep            5
     Take Screenshot
