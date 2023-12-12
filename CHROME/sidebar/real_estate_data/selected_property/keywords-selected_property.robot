@@ -33,3 +33,22 @@ Checkbox Original state
     Reload
     Sleep                    6
     Take Screenshot
+
+Checkbox Partial reconstruction
+    Click                    //div[@class='user-select-none svg-container']//*[name()='svg']//*[name()='g' and contains(@class,'infolayer')]//*[name()='g' and contains(@class,'legend')]//*[name()='g' and contains(@class,'scrollbox')]//*[name()='g'][6]/*[name()='g'][1]/*[name()='rect'][1]
+    Take Screenshot      
+    Sleep                    3
+    Reload
+    Scroll To Element        //div[@class='user-select-none svg-container']
+    Sleep                    6
+    Take Screenshot
+
+Checkbox two choices
+    Click                    //div[@class='user-select-none svg-container']//*[name()='svg']//*[name()='g' and contains(@class,'infolayer')]//*[name()='g' and contains(@class,'legend')]//*[name()='g' and contains(@class,'scrollbox')]//*[name()='g'][2]/*[name()='g'][1]/*[name()='rect'][1]
+    Click                    //div[@class='user-select-none svg-container']//*[name()='svg']//*[name()='g' and contains(@class,'infolayer')]//*[name()='g' and contains(@class,'legend')]//*[name()='g' and contains(@class,'scrollbox')]//*[name()='g'][5]/*[name()='g'][1]/*[name()='rect'][1]
+    Take Screenshot      
+    Sleep                    3
+    Reload
+    Scroll To Element        //div[@class='user-select-none svg-container']
+    Sleep                    6
+    Take Screenshot

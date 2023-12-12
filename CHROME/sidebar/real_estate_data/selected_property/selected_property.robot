@@ -17,3 +17,11 @@ EN to FR
 Checkbox Original state
     Web
     Checkbox Original state
+
+Checkbox partial reconstruction
+    Web
+    Checkbox Partial reconstruction
+
+Checkbox two choices
+    Web
+    Checkbox two choices  # wrong output
